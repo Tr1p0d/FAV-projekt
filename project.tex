@@ -97,7 +97,7 @@ Nyní si mù¾eme shrnout, jak ESBMC funguje jako celek.
 
 \item V dal¹ím kroku se z vlastností sestaví \textit{verifikaèní podmínky}, jejich¾ poèet ESBMC bez újmy na obecnosti zredukuje.
 
-\item Poslední krok nále¾í ovìøování podmínek vygenerovaných v pøedchozím bodì, není-li ¾ádná podmínka poru¹ena, ESBMC skonèí, jinak vypí¹e u¾ivateli informace o chybì.
+\item Poslední krok nále¾í ovìøování podmínek vygenerovaných v pøedchozím bodì. Není-li ¾ádná podmínka poru¹ena, ESBMC skonèí, jinak vypí¹e u¾ivateli informace o chybì.
 \end{enumerate}
 
 %\section{Architektura}
@@ -106,9 +106,30 @@ Nyní si mù¾eme shrnout, jak ESBMC funguje jako celek.
 
 \section{Ukázka front-end rozhraní}
 \label{sec:front-end}
+V této kapitole si uká¾eme, na pøíkladu (v sekci \ref{sec:claims}) \textit{vlastnosti} (ve výstupu oznaèené jako tvrzení, \textit{claims}) generované nástrojem ESBMC pøed samotným zapoèetím verifikace a s nimi související \textit{verifikaèní podmínky}.
 
-\lstinputlisting[style=customc]{listings/null_dereference.c}
-\lstinputlisting[style=customshell]{listings/null_dereference_claims}
+\subsection{Generované vlastnosti a verifikaèní podmínky}
+\label{sec:claims}
+
+Na ukázce \ref{lst:pointerd} mù¾eme vidìt zdrojový kód programu, který obsauhje chybu v pointerové aritmetice. Na øádku è. 5 se sna¾íme pøistoupit do èásti pamìti, která nám zcela jistì nebyla pøidìlena.
+ 
+\lstinputlisting[
+	  style=customc
+	, caption=Jednoduchý program s chybnou pointerovou aritmetikou
+	, label={lst:pointerd}
+	] {listings/null_dereference.c}
+
+Pokud spustíme ESBMC s pøepínaèem \texttt{--show-claims} dostaneme výpis programu, z kterého je patrné, ¾e se provedl rozbor vstupního programu spolu se sémantickou analázou a nìkolika dal¹ími kroky. Podstatným výstupem jsou pro nás jednotlivá \textit{Claims} neboli \textit{vlastnosti} (ukázka \ref{lst:pointerdclaims}\footnote{V¹echny následující ukázky jsou zkrácené, nebo» èást výstupu se opakuje}), které bychom pøi verifikaci ovìøovali (viz. kapitola  \ref{sec:basics}). 
+Ukázka \ref{lst:pointerdvccs} pak demonstruje \textit{verifikaèní podmínky} výgenerované z dat v pøedchozím kroku.
+.
+
+\newpage
+\lstinputlisting[
+	  style=customshell
+	, caption={Výpis ESBMC pøi spu¹tìní s pøepínaèem \texttt{--show-claims} nad programem v ukázce \ref{lst:pointerd}.}
+	, label={lst:pointerdclaims}
+	]{listings/null_dereference_claims}
+
 \lstinputlisting[style=customshell]{listings/null_dereference_run}
 
 \section{Rozbor pøípadových studii dodávaných s ESBMC}
