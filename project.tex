@@ -1,19 +1,127 @@
 \documentclass[titlepage]{article}
 
-\title{FormÃlnÃ­anaÃlza a verifikace - Efficient SMT-based Context-Bounded Model Checker}
-\author{Marek Kidon}
+\title{Formální analýza a verifikace -- Efficient SMT-Based Bounded Model Checker}
+\author{Marek Kidoò}
 \date{ }
-
+\usepackage[latin2]{inputenc}
 \usepackage[czech]{babel}
-\usepackage[utf8]{inputenc}
+\usepackage[IL2]{fontenc}
+
+\usepackage{mathtools}
+
+\usepackage{amsfonts}
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+
+%%%%%%%%%%%%%%%%%% LISTINGS
+\usepackage{listings}
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=single,
+  numbers=left,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  keywordstyle=\color{Green},
+  stringstyle=\color{orange},
+}
+
+\lstdefinestyle{customshell}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=single,
+  numbers=left,
+  xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+}
+
+%%%%%%%%%%%%%%%%%% LISTINGS
+
 \begin{document}
 
 \maketitle
 
 \tableofcontents
 
-\section{vod}
-\section{Popis}
-\section{1}
-\section{2}
+% New page to start our article
+\clearpage
+
+\section{Úvod}
+Tato práce se zabývá rozborem nástroje ESBMC pro omezený symbolický model-cheking zalo¾ený na dokazatelnosti booleovských formulí. V kapitole \ref{sec:basics} si pøedstavíme základní my¹lenku a formální aparát, na kterém je nástroj zalo¾en.
+
+V následující kapitole \ref{sec:architecture} si popí¹eme architekturu nástroje a zmíníme spoleèné my¹lenky a komponenty, který nástroj ESBMC sdílí s nástrojem CBMC\cite{ANSIC}, na kterém je èásteènì zalo¾en.
+
+Kapitola \ref{sec:front-end} nám pøiblí¾i front-end rozhraní, a na nìkolika jednoduchých ukázkách si budeme demonstrovat koncepty popsané v kapitolách \ref{sec:basics} a \ref{sec:architecture}.
+
+Následující kapitoly \ref{sec:refcasestudies} a \ref{sec:mycasestudies} se budou zabývat pøípadovými studiemi dodávanými jako souèást nástroje pota¾mo studiemi, které jsem vytvoøil já sám. This should be rewritten.
+
+\newpage
+\section{Formální základy}
+\label{sec:basics}
+Omezený model-checking byl uveden jako doplòková technika ke kódování stavového prostoru do binárních rozhodovacích diagramù, která má za úkole se vypoøádat se stavovou explozí Kripkeho struktur zkoumaných programù.
+Verifikaèní podmínky zde jsou zakódovány do výrokových formulí, které jsou následnì øe¹eny nìjakým vhodným solverem, V na¹em pøípadì jsou k dispozici SMT solvery \textit{Boolector}, \textit{CVC3} a \textit{Z3}, av¹ak tìmito komponentami se v této práci blí¾e zabývat nebudeme. 
+
+Pøínos ESBMC spoèívá ve schopnosti øe¹it bitové operace, uva¾ovat o pointerové aritmetice a jiných, které nejsou jednodu¹e øe¹itelné jinými nástroji zalo¾enými na SMT solverech. 
+
+Jak ji¾ bylo øeèeno v úvodu, ESBMC pou¾ívá CBMC front-end (blí¾e v kapitole \ref{sec:architecture}), pro vygenerování verifikaèních podmínek do tvaru boolevských formulí. Namísto øe¹ení tìchto podmínek pøímo SAT solverem je výstupní formule konvertována a je øe¹ena SMT solverem.
+
+\subsection{Formální popis programu z pohledu ESBMC}
+ESBMC modeluje program jako pøechodový systém (obdoba Kripkeho struktury) $M=(S, T, S_{0})$, který je pøi pøekladu do \textit{SSA} formy vygenerován z control-flow grafu. $S$ znaèí mo¾inu stavù, kde ka¾dý stav obsahuje informace o èítaèi pøechodù (program counter) a v¹ech promìnných programu. $T \subseteq S \times S$ znaèí mno¾inu pøechodù mezi stavy a $S_{0}$ je mno¾ina poèáteèních stavù. Ka¾dý pøechod mezi stavy $(s_{i}, s_{i+1}) \in T$ identifikujeme logickou formulí $\gamma(s_{i}, s_{i+1})$.
+
+\subsection{Generováni ovìrovaných podmínek}
+Pak máme-li daný pøechodový systém $M$, nìjakou \textit{vlastnost} $\phi$ a omezení $k$, systém rozvine smyèky systémù $k$-krát a pøelo¾í jej do \textit{verifikaèní podmínky} $\psi$ tak, ¾e $\psi$ je splnitelná tehdy a jen tehdy, \textit{vlastnost} $\phi$ ma protipøíklad v hloubce $k$ nebo ménì. Výsledná formule \textit{verifikaèní podmínky} $\psi_{k}$, která je øe¹itelná SMT solverem, jak je vidìt na formuli \ref{eq:vc},
+
+\begin{equation}
+\label{eq:vc}
+\psi_{k} = I(s_0) \land \bigvee\limits_{i=0}^k \bigwedge\limits_{j=0}^{i-1} \gamma(s_{j}, s_{j+1}) \land \neg \phi(s_{i})
+\end{equation}
+
+kde $\phi(s_{i})$ je generovaná \textit{vlastnost}, $I$ znaèí mno¾inu poèáteèních stavù pøechodového systému $M$ a formule $\gamma(s_{i}, s_{i+1})$ znaèí pøechodovou relaci v mezi následujícími stavy. 
+
+Formule \ref{eq:vc} je splnitelná tehdy a jen tehdy, jestli¾e pro nìjaké $i < k$ existuje dosa¾itelný stav v $M$, ve kterém je vlastnost $\phi$ poru¹ena. V takovém pøípadì jsme na¹li stav ovìøovaného programu, kde vzhledem k zadané specifikaci existuje chyba a z poru¹ené formule mù¾eme vygenerovat výstup u¾ivateli. Pokud je v¹ak formule nespnitelná, oveøovaná vlastnost poru¹ena není a program do tohoto bodu vyhovuje specifikaci. 
+
+\subsection{Shrnutí}
+
+Nyní si mù¾eme shrnout, jak ESBMC funguje jako celek. 
+\begin{enumerate}
+\item Proces ovìøování zaèíná rozborem, sémantickou analýzou vstupního programu a generováním pøechodového systému.
+
+\item Z nìj jsou následnì automaticky vygenerovány \textit{vlastnosti}, tedy body programu, kde mù¾e docházet k problémùm vzhledem ke specifikaci (typicky pøiøazení apod.).
+
+\item V dal¹ím kroku se z vlastností sestaví \textit{verifikaèní podmínky}, jejich¾ poèet ESBMC bez újmy na obecnosti zredukuje.
+
+\item Poslední krok nále¾í ovìøování podmínek vygenerovaných v pøedchozím bodì, není-li ¾ádná podmínka poru¹ena, ESBMC skonèí, jinak vypí¹e u¾ivateli informace o chybì.
+\end{enumerate}
+
+%\section{Architektura}
+%\label{sec:architecture}
+%V této kapitole si krátce probereme architekturu ESBMC, zejména proto abychom vidìli, kolik spolèného toho má s nástrojem CBMC, ze kterého je odvozen.
+
+\section{Ukázka front-end rozhraní}
+\label{sec:front-end}
+
+\lstinputlisting[style=customc]{listings/null_dereference.c}
+\lstinputlisting[style=customshell]{listings/null_dereference_claims}
+\lstinputlisting[style=customshell]{listings/null_dereference_run}
+
+\section{Rozbor pøípadových studii dodávaných s ESBMC}
+\label{sec:refcasestudies}
+
+\section{Vlastní pøpadové studie}
+\label{sec:mycasestudies}
+
+\newpage
+\section{Závìr}
+
+% keep the bibliography on a separate page
+\newpage
+\bibliographystyle{alpha}
+\bibliography{project}
 \end{document}
