@@ -1,0 +1,1036 @@
+file pthread1.c: Parsing
+Converting
+Type-checking pthread1
+Generating GOTO Program
+GOTO program creation time: 0.064s
+Pointer Analysis
+Adding Pointer Checks
+Adding Data Race Checks
+GOTO program processing time: 0.004s
+Starting Bounded Model Checking
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.006s
+*** Thread interleavings 2 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 3 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 4 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 5 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 6 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 7 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 8 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 9 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 10 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 11 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 12 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 13 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 14 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 15 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 16 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 17 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 18 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 19 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 20 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 21 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 22 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 23 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 24 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 25 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 26 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 27 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 28 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 29 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 30 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 31 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 32 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 33 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 34 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 35 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 36 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 37 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 38 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 39 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 40 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 41 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 42 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 43 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 44 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 45 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 46 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 47 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 48 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 49 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 50 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 51 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 52 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 53 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 54 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 55 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 56 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 57 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 58 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 59 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 60 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 61 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 62 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 63 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 64 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 65 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 66 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 67 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 68 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 69 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 70 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 71 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 72 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 73 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 74 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 75 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 76 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 77 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 78 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 79 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 80 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 81 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 82 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 83 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 84 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 85 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 86 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 87 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 88 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 89 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 90 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 91 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 92 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 93 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 94 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 95 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 96 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 97 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 98 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 99 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 100 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 101 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 102 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 103 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 104 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 105 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 106 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 107 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 108 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 109 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 110 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 111 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 112 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 113 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 114 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 115 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 116 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 117 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 118 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 119 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 120 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 121 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 122 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 123 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 124 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 125 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 126 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 127 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 128 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 129 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 130 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 131 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 132 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 133 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 134 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 135 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 136 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 137 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 138 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 139 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 140 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 141 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 142 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 143 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 144 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 145 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 146 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 147 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 148 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 149 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 150 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 151 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 152 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 153 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 154 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 155 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 156 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 157 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 158 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 159 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 160 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 161 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 162 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 163 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 164 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 165 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 166 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 167 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.002s
+*** Thread interleavings 168 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 169 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 170 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 171 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 172 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 173 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.000s
+*** Thread interleavings 174 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 175 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 176 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 177 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 178 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 179 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 180 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 181 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 182 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 183 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 184 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 185 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 186 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 187 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 188 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 189 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 190 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 191 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 192 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 193 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 194 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 195 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 196 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 197 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 198 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 199 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 200 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 201 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 202 ***
+size of program expression: 172 assignments
+Generated 35 VCC(s), 0 remaining after simplification
+VERIFICATION SUCCESSFUL
+BMC program time: 0.001s
+*** Thread interleavings 203 ***
+size of program expression: 173 assignments
+Generated 35 VCC(s), 1 remaining after simplification
+Encoding remaining VCC(s) using bit-vector arithmetic
+Encoding to solver time: 0.000s
+Solving with SMT Solver Z3 v3.2
+Runtime decision procedure: 0.002s
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file pthread1.c line 10 function t1
+  W/W data race on c::a[0]
+  !tmp_c::a[0]
+
+VERIFICATION FAILED
