@@ -1,0 +1,68 @@
+ESBMC version 2.0.0 64-bit x86_64 linux
+file memory_leak.c: Parsing
+Converting
+Type-checking memory_leak
+Generating GOTO Program
+GOTO program creation time: 0.261s
+GOTO program processing time: 0.004s
+Starting Bounded Model Checking
+Unwinding loop 1 iteration 1 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 2 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 3 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 4 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 5 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 6 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 7 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 8 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 9 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 10 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 11 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 12 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 13 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 14 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 15 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 16 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 17 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 18 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 19 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 20 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 21 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 22 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 23 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 24 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 25 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 26 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 27 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 28 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 29 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 30 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 31 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 32 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 33 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 34 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 35 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 36 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 37 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 38 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 39 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 40 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 41 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 42 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 43 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 44 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 45 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 46 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 47 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 48 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 49 file memory_leak.c line 7 function main
+Unwinding loop 1 iteration 50 file memory_leak.c line 7 function main
+Symex completed in: 0.011s
+size of program expression: 70 assignments
+Slicing time: 0.000s
+Generated 1 VCC(s), 1 remaining after simplification
+Encoding remaining VCC(s) using bit-vector arithmetic
+Encoding to solver time: 0.001s
+Solving with solver Boolector
+Runtime decision procedure: 0.000s
+VERIFICATION SUCCESSFUL
+BMC program time: 0.013s
